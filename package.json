@@ -1,0 +1,37 @@
+{
+  "name": "@jlenon7/adonis-test-suite",
+  "version": "1.0.0",
+  "repository": "https://github.com/jlenon7/adonis-test-suite",
+  "author": "João Lenon <lenonsec7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/mrm-preset": "^3.0.0",
+    "@adonisjs/vow": "^1.0.17",
+    "@types/lodash": "^4.14.168",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "japa": "^3.1.1",
+    "mrm": "^2.6.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  },
+  "main": "build",
+  "types": "build",
+  "files": [
+    "build",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
