@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "mrm": "mrm --preset=@adonisjs/mrm-preset",
-    "build": "yarn compile",
+    "build": "tsc",
     "lint:fix": "eslint ./src --ext=.ts --fix"
   },
   "devDependencies": {
